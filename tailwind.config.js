@@ -18,5 +18,5 @@ module.exports = {
       gray: '#7A746E',
     },
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 }
