@@ -11,7 +11,7 @@ function StyledButton({
     <button
       className={`btn ${
         type === 'dark' ? 'bg-deepBlack' : 'bg-redOrange'
-      } text-shallowWhite rounded-[50rem] h-[5.6rem] w-[22.8rem] ${
+      } h-[5.6rem] w-[22.8rem] rounded-[50rem] text-shallowWhite ${
         type === 'dark' ? 'hover:bg-purple' : 'hover:bg-orange'
       }`}
       onClick={onClick}

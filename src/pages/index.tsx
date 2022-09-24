@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { StyledButton } from '@/components'
+import { StyledButton, Pagination } from '@/components'
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +14,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <StyledButton text={'hello'} type="light" onClick={() => {}} />
+      <Pagination
+        onForwardButtonClick={() => {}}
+        onBackwardButtonClick={() => {}}
+      />
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
