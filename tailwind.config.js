@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
+    './src/containers/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
@@ -18,5 +19,5 @@ module.exports = {
       gray: '#7A746E',
     },
   },
-  plugins: [require('daisyui')],
+  plugins: [require('tw-elements/dist/plugin'), require('daisyui')],
 }

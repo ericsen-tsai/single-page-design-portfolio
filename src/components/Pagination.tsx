@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ArrowLeftIcon from '@/assets/icon-arrow-left.svg'
-import ArrowRightIcon from '../assets/icon-arrow-right.svg'
+import ArrowRightIcon from '@/assets/icon-arrow-right.svg'
 
 function Pagination({
   onBackwardButtonClick,
