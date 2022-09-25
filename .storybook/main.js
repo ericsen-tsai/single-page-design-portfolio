@@ -25,6 +25,12 @@ module.exports = {
       ...config.resolve.alias,
       '@': path.resolve(__dirname, '../src/'),
     }
+
+    config.resolve.roots = [
+      path.resolve(__dirname, '../public'),
+      'node_modules',
+    ]
+
     const fileLoaderRule = config.module.rules.find(
       (rule) => rule.test && rule.test.test('.svg')
     )
@@ -35,6 +41,13 @@ module.exports = {
       enforce: 'pre',
       loader: require.resolve('@svgr/webpack'),
     })
+
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader?modules&importLoaders', 'sass-loader'],
+      include: path.resolve(__dirname, '../'),
+    })
+
     return config
   },
 }
