@@ -16,7 +16,7 @@ function StyledButton({
       }`}
       onClick={onClick}
     >
-      <p className="text-[1.6rem]">{text}</p>
+      <p className="text-[1.6rem] normal-case">{text}</p>
     </button>
   )
 }
