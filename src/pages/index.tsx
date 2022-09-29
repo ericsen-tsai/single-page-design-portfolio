@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-import { Carousel, Navbar } from '@/containers'
+import { Carousel, Navbar, GridGallery } from '@/containers'
 
 const Home: NextPage = () => {
   return (
@@ -17,11 +17,12 @@ const Home: NextPage = () => {
           <h1 className="mb-[2.3rem] text-deepBlack">
             Design solutions made easy
           </h1>
-          <p className="mx-auto w-[50%]">
+          <p className="mx-auto w-[70rem]">
             With over ten years of experience in various design disciplines, I’m
             your one-stop shop for your design needs.
           </p>
         </div>
+        <GridGallery />
         <Carousel />
       </div>
     </div>
