@@ -4,7 +4,7 @@ import { StyledButton } from '@/components'
 
 function Navbar() {
   return (
-    <div className="mx-auto flex w-[110rem] items-center justify-between py-[.5rem]">
+    <div className="mx-auto flex w-[90vw] min-w-[80rem] items-center justify-between py-[.5rem]">
       <div className="w-[6.4rem]">
         <Image
           src="/logo.svg"

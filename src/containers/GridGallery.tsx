@@ -9,7 +9,7 @@ import AppsIcon from '@/assets/pattern-apps.svg'
 
 function GridGallery() {
   return (
-    <div className="mx-auto grid h-[36rem] w-[110rem] grid-cols-6 grid-rows-2 gap-[2.5rem] py-[.5rem]">
+    <div className="mx-auto grid h-[36rem] w-[90vw] min-w-[80rem] grid-cols-6 grid-rows-2 gap-[2.5rem] py-[.5rem]">
       <div className="relative col-span-2 row-span-2 rounded-[1rem] bg-purple">
         <GraphicDesignIcon className="absolute top-[2.5rem] right-[2.5rem]" />
         <p className="absolute bottom-[2rem] left-[2rem] text-4xl text-shallowWhite">

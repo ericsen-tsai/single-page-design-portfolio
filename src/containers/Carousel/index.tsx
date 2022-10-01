@@ -42,7 +42,7 @@ function Carousel() {
           <button
             onClick={clickHandler}
             disabled={!hasPrev}
-            className="btn absolute top-[calc(100%+5.6rem)] left-[45%] z-10 flex h-[6.4rem] w-[6.4rem] cursor-pointer items-center justify-center rounded-full border-none bg-deepBlack hover:border-none hover:bg-purple"
+            className="btn absolute top-[calc(100%+5.6rem)] right-[55%] z-10 flex h-[6.4rem] w-[6.4rem] cursor-pointer items-center justify-center rounded-full border-none bg-deepBlack hover:border-none hover:bg-purple"
           >
             <ArrowLeftIcon />
           </button>
@@ -51,7 +51,7 @@ function Carousel() {
           <button
             onClick={clickHandler}
             disabled={!hasNext}
-            className="btn absolute top-[calc(100%+5.6rem)] right-[45%] flex h-[6.4rem] w-[6.4rem] cursor-pointer items-center justify-center rounded-full border-none bg-deepBlack hover:border-none hover:bg-purple"
+            className="btn absolute top-[calc(100%+5.6rem)] left-[55%] flex h-[6.4rem] w-[6.4rem] cursor-pointer items-center justify-center rounded-full border-none bg-deepBlack hover:border-none hover:bg-purple"
           >
             <ArrowRightIcon />
           </button>
