@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           </p>
         </div>
         <GridGallery />
-        <div className="flex mx-auto mt-[5rem] w-[90vw] min-w-[80rem] items-center justify-between">
+        <div className="mx-auto mt-[5rem] flex w-[90vw] min-w-[80rem] items-center justify-between">
           <div className="w-[30vw] basis-[45%]">
             <Image
               src="/image-amy.webp"
@@ -52,12 +52,12 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div className="flex mb-[5rem] mt-[10rem]">
+        <div className="mb-[5rem] mt-[10rem] flex">
           <h3 className="mx-auto inline-block text-deepBlack">My Work</h3>
         </div>
         <Carousel />
         <div className="card mx-auto mt-[-10rem] mb-[20rem] h-[40rem] w-[90rem] bg-deepBlack shadow-xl">
-          <div className="flex card-body flex-row">
+          <div className="card-body flex flex-row">
             <div className="flex h-[100%] w-[50%] flex-col justify-center gap-[5rem] p-[5rem]">
               <h3 className="inline-block text-shallowWhite">
                 Book a call with me

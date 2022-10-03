@@ -13,8 +13,6 @@ import ArrowRightIcon from '@/assets/icon-arrow-right.svg'
 
 import styles from './Carousel.module.scss'
 
-const imageSRCs = [Slide1, Slide2, Slide3, Slide4, Slide5]
-
 const createCarouselItemImage = (index: React.Key) => (
   <div className="h-[100%] w-[95%] overflow-hidden rounded-[1rem]" key={index}>
     <Image
