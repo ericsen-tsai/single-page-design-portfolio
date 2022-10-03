@@ -40,7 +40,7 @@ function GridGallery() {
           Illustrations
         </p>
       </div>
-      <div className="relative col-span-2 row-span-1 rounded-[1rem] bg-wineRed">
+      <div className="relative col-span-2  row-span-1 rounded-[1rem] bg-wineRed">
         <MotionGraphicsIcon className="absolute top-[2.5rem] right-[2.5rem]" />
         <p className="absolute bottom-[2rem] left-[2rem] text-4xl text-shallowWhite">
           Motion Graphics

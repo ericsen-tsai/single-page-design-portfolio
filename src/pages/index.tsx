@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           </p>
         </div>
         <GridGallery />
-        <div className="mx-auto mt-[5rem] flex w-[90vw] min-w-[80rem] items-center justify-between">
+        <div className="flex mx-auto mt-[5rem] w-[90vw] min-w-[80rem] items-center justify-between">
           <div className="w-[30vw] basis-[45%]">
             <Image
               src="/image-amy.webp"
@@ -52,7 +52,33 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
+        <div className="flex mb-[5rem] mt-[10rem]">
+          <h3 className="mx-auto inline-block text-deepBlack">My Work</h3>
+        </div>
         <Carousel />
+        <div className="card mx-auto mt-[-10rem] mb-[20rem] h-[40rem] w-[90rem] bg-deepBlack shadow-xl">
+          <div className="flex card-body flex-row">
+            <div className="flex h-[100%] w-[50%] flex-col justify-center gap-[5rem] p-[5rem]">
+              <h3 className="inline-block text-shallowWhite">
+                Book a call with me
+              </h3>
+              <p className="text-shallowWhite">
+                I&apos;d love to have a chat to see how I can help you. The best
+                first step is for us to discuss your project during a free
+                consultation. Then we can move forward from there.
+              </p>
+            </div>
+
+            <div className="grid w-[50%] place-items-center">
+              <StyledButton
+                text="Free Consultation"
+                type="light"
+                onClick={() => {}}
+              />
+            </div>
+          </div>
+        </div>
+        <Navbar />
       </div>
     </div>
   )
